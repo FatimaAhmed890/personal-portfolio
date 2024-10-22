@@ -17,7 +17,7 @@
 
 @layer utilities {
   :root {
-    --light-purple-glow: rgb(239, 198, 255); /* Adjust this value to get your desired light purple */
+    --light-purple-glow: rgba(213, 105, 255, 0.75); /* Adjust this value to get your desired light purple */
   }
 
   .custom-light-purple-glow {
