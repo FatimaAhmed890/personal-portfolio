@@ -64,7 +64,12 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Digital Workspace!</span>
-                <h1>{`Hi! I'm Fatima,`} <span className="txt-rotate" dataPeriod="800" data-rotate='[ "AI/ML Practitioner", "Data Science Enthusiast", "DevOps Landscape Explorer ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Fatima,`}</h1>
+                  <h2 className="bg-gradient-to-r items-center from-blue-500 via-teal-500 to-pink-500">
+                  <span className="txt-rotate custom-light-purple-glow" dataPeriod="800" data-rotate='[ "AI/ML Practitioner", "Data Science Enthusiast", "DevOps Landscape Explorer "]'>
+                    <span className="wrap text-sm">{text}</span>
+                  </span>
+                  </h2>                  
                   <p className="purple-text">I'm <b>Fatima Ahmed</b>, a CS enthusiast driven by curiosity and a passion for uncovering
                      insights from raw data. Throughout my journey, I've honed my skills in <b>Data Science</b> and <b>Machine Learning</b> and applied them to a variety of projects. Along with my ongoing journey into <b>AI/ML</b>, 
                      I'm actively learning and exploring <b>DevOps</b> and <b>Software Development</b> best practices and principles like <b>CI/CD</b>, <b>microservices</b>, <b>cloud computing</b> and <b>agile methodologies</b>.

@@ -15,6 +15,16 @@
 	font-weight: 400;
 }
 
+@layer utilities {
+  :root {
+    --light-purple-glow: rgba(213, 105, 255, 0.75); /* Adjust this value to get your desired light purple */
+  }
+
+  .custom-light-purple-glow {
+    text-shadow: 0px 0px 18px var(--light-purple-glow);
+  }
+}
+
 /************ Default Css ************/
 * {
   margin: 0;

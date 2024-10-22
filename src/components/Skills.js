@@ -43,79 +43,79 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <Carousel responsive={responsive} className="owl-carousel owl-theme skill-slider" autoPlay={true} autoPlaySpeed={950} infinite={true}>
                             <div className="item">
-                                <FaPython size={100} color="#3572A5" />
+                                <FaPython size={90} color="#3572A5" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <BiLogoPostgresql size={100} color="#6188B8" />
+                                <BiLogoPostgresql size={90} color="#6188B8" />
                                 <h5>PostgreSQL</h5>
                             </div>
                             <div className="item">
-                                <FaDocker size={100} color="#0080FF" />
+                                <FaDocker size={90} color="#0080FF" />
                                 <h5>Docker</h5>
                             </div>
                             <div className="item">
-                                <SiPowerbi size={100} color='#F2C71B' />
+                                <SiPowerbi size={90} color='#F2C71B' />
                                 <h5>PowerBI</h5>
                             </div>
                             <div className="item">
-                                <SiMongodb size={100} color="#4DB331" />
+                                <SiMongodb size={90} color="#4DB331" />
                                 <h5>Mongodb</h5>
                             </div>
                             <div className="item">
-                                <SiFlask size={100} color="#3572A5" />
+                                <SiFlask size={90} color="#3572A5" />
                                 <h5>Flask</h5>
                             </div>
                             <div className="item">
-                                <FaGitAlt size={100} color="#F24D27" />
+                                <FaGitAlt size={90} color="#F24D27" />
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
-                                <SiPandas size={100} color="#ffff" />
+                                <SiPandas size={90} color="#ffff" />
                                 <h5>Pandas</h5>
                             </div>
                             <div className="item">
-                                <SiOpencv size={100} color="#F79F1A" />
+                                <SiOpencv size={90} color="#F79F1A" />
                                 <h5>OpenCv</h5>
                             </div>
                             <div className="item">
-                                <SiNumpy size={100} color="#3572A5" />
+                                <SiNumpy size={90} color="#3572A5" />
                                 <h5>Numpy</h5>
                             </div>
                             <div className="item">
-                                <SiMicrosoftexcel size={100} color="#21A366" />
+                                <SiMicrosoftexcel size={90} color="#21A366" />
                                 <h5>MS Excel</h5>
                             </div>
                             <div className="item">
-                                <FaReact size={100} color="#00D8FF" />
+                                <FaReact size={90} color="#00D8FF" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <FaNodeJs size={100} color="#68a063" />
+                                <FaNodeJs size={90} color="#68a063" />
                                 <h5>Node JS</h5>
                             </div>
                             <div className="item">
-                                <SiExpress size={100} color="#EE6C4D" />
+                                <SiExpress size={90} color="#EE6C4D" />
                                 <h5>Express JS</h5>
                             </div>
                             <div className="item">
-                                <SiScikitlearn size={100} color="#F7931E" />
+                                <SiScikitlearn size={90} color="#F7931E" />
                                 <h5>Scikit-Learn</h5>
                             </div>
                             <div className="item">
-                                <SiSpacy size={100} color="#3572A5" />
+                                <SiSpacy size={90} color="#3572A5" />
                                 <h5>Spacy</h5>
                             </div>
                             <div className="item">
-                                <IoInfinite size={100} color="#89CFF0" />
+                                <IoInfinite size={90} color="#89CFF0" />
                                 <h5>DevOps</h5>
                             </div>
                             <div className="item">
-                                <FcLinux size={100} />
+                                <FcLinux size={90} />
                                 <h5>Linux</h5>
                             </div>
                             <div className="item">
-                                <SiPowershell size={100} color="#000000" />
+                                <SiPowershell size={90} color="#000000" />
                                 <h5>Shell Scripting</h5>
                             </div>
                             {/* <div className="item">
@@ -123,15 +123,15 @@ export const Skills = () => {
                                 <h5>Software Development</h5>
                             </div> */}
                             <div className="item">
-                                <TbBrandCpp size={100} color="#00599C" />
+                                <TbBrandCpp size={90} color="#00599C" />
                                 <h5>C++</h5>
                             </div>
                             <div className="item">
-                                <IoLogoJavascript size={100} color="#F7DF60" />
+                                <IoLogoJavascript size={90} color="#F7DF60" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <SiTypescript size={100} color="#007acc" />
+                                <SiTypescript size={90} color="#007acc" />
                                 <h5>Typescript</h5>
                             </div>
                         </Carousel>
